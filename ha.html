@@ -1,0 +1,305 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="ha.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+    </div>
+    <nav class="nav-links">
+      <a href="#home">Trang chủ</a>
+      <a href="#about">Giới thiệu</a>
+      <a href="#services">Dịch vụ</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+    <div class="hamburger">☰</div>
+  </div>
+  
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Khám phá phố cổ Hội An</h1>
+      <!-- <p>Khám phá Việt Nam, chạm đến mọi hành trình</p> -->
+      <p>Nét đẹp cổ kính, văn hóa độc đáo và ẩm thực khó quên</p>
+    </div>
+       
+    <!-- Nút Play -->
+<div class="play-button" onclick="showVideo()">
+  ▶
+</div>
+
+<!-- Popup Video Overlay -->
+<div id="videoOverlay" class="overlay">
+  <div class="video-popup">
+    <span class="close-button" onclick="hideVideo()">✖</span>
+    <div class="video-wrapper">
+      <iframe id="ytVideo" src="https://www.youtube.com/embed/zzJ0xpfR9Pk"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+  </section>
+  <div class="container">
+    <div class="write">
+    <p><h2>Hình ảnh phố cổ Hội An</h2></p>
+      <ul>
+        <li>Kiến trúc cổ kính:Những ngôi nhà gỗ với mái ngói rêu phong, tường vàng đặc trưng và các con phố nhỏ hẹp lát đá.</li>
+        <li>Văn hóa đa dạng: Các công trình như Chùa Cầu (biểu tượng của Hội An), Hội quán Phúc Kiến, nhà cổ Tấn Ký</li>
+        <li>Không khí yên bình: Khác với sự nhộn nhịp của các thành phố lớn, Hội An mang đến cảm giác thư thái</li>
+      </ul>
+    </div>
+  
+
+
+  <div class="view">
+    <!-- Nửa trái: 1 ảnh lớn -->
+    <div class="left">
+      <img src="https://cdn.xanhsm.com/2025/02/6202171b-chup-anh-hoi-an-15.jpg" alt="Ảnh lớn">
+    </div>
+
+    <!-- Nửa phải: 2 ảnh nhỏ -->
+    <div class="right">
+      <img src="https://tourismdanang.com/wp-content/uploads/2020/04/91700084_665742127579935_833655415601364992_o.jpg" alt="Ảnh trên">
+      <div class="right2">
+      <img src="https://cdn.xanhsm.com/2025/02/3e1d9213-chup-anh-hoi-an-1.jpg" alt="Ảnh dưới">
+      <img src="https://vcdn1-dulich.vnecdn.net/2022/06/01/Hoi-An-VnExpress-5851-16488048-4863-2250-1654057244.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=Z2ea_f0O7kgGZllKmJF92g" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="container">
+  <h2>Khám phá Hội An</h2>
+ <div class="outside">
+    <div class="left-section">
+      <div class="text-box"><h3>1.Giới thiệu Hội An</h3><input type="text" >
+        <p>Phố cổ Hội An ở đâu – Phố cổ Hội An Đà Nẵng
+Phố cổ Hội An là một đô thị cổ nằm ở hạ lưu sông Thu Bồn, thuộc vùng đồng bằng ven biển tỉnh Quảng Nam, Việt Nam, cách thành phố Đà Nẵng khoảng 30 km về phía Nam.
+
+Hội An là một thành phố thuộc tỉnh Quảng Nam có nhiều khu phố cổ được xây từ thế kỷ 16 và vẫn còn tồn tại gần như nguyên vẹn đến nay.</p>
+      </div>
+      <div class="text-box"><h3>2.Hội An với những kiến trúc truyền thống.</h3><input type="text">
+        <p>Hội An nổi tiếng bởi vẻ đẹp kiến trúc truyền thống, hài hòa của những ngôi nhà, bức tường và cả những con đường. Cùng với bao biến cố thăng trầm của lịch sử,
+           phố cổ Hội An vẫn giữ những nét đẹp xưa cổ trầm mặc rêu phong trong từng mái ngói, viên gạch, hàng cây… như chính nét bình dị trong tính cách, tâm hồn thuần hậu, chân chất của người dân địa phương.</p>
+      </div>
+      <div class="text-box"><h3>3. Di tích tiêu biểu.</h3><input type="text" >
+        <p>Nhắc đến Hội An, du khách chắc chắn không muốn bỏ lỡ “biểu tượng của Hội An” – Chùa Cầu. Chùa Cầu, hay còn được gọi là Chùa Nhật Bản nằm tiếp giáp giữa đường Nguyễn Thị Minh Khai và đường Trần Phú, là công trình kiến trúc độc đáo, tiêu biểu ở Hội An. Ngôi chùa này được các thương gia Nhật Bản đến buôn bán tại đây xây dựng vào khoảng giữa thế kỷ 16....
+
+</p>
+      </div>
+      <div class="text-box"><h3>4. Ẩm thực đặc sắc.</h3><input type="text" >
+        <p>Hội An nổi tiếng với nhiều món ăn ngon mang đậm hương vị miền Trung như:
+
+Cao lầu, mì Quảng, cơm gà Hội An, bánh mì Phượng, bánh bao – bánh vạc. Ẩm thực nơi đây là sự kết hợp tinh tế giữa truyền thống và sáng tạo, góp phần tạo nên trải nghiệm khó quên cho du khách.</p>
+      </div>
+    </div>
+    <div class="right-section">
+  <!-- 4 ô ở phần trên -->
+  <div class="image-grid top-grid">
+    <div class="image-box">
+      <img src="https://mia.vn/media/uploads/blog-du-lich/pho-co-hoi-an-33-1722925558.jpg" alt="Ảnh 1">
+    </div>
+    <div class="image-box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREhKm7bSpW51tZDyRfnZmv0lOZNXtTrHMsIw&s" alt="Ảnh 2">
+    </div>
+    <div class="image-box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ydEpPeb4WQ-bWk23ewRuEwJFKv33HkezDA&s" alt="Ảnh 3">
+    </div>
+    <div class="image-box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjrwCVYcJ_SQ9PbDyr_6H-GJFgZsjaCzhY8g&s" alt="Ảnh 4">
+    </div>
+  </div>
+
+  <!-- 2 ô ở phần dưới -->
+  <div class="image-grid bottom-grid">
+    <div class="image-box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-lbR_suj2uwJB81bo_QZXd2ES24way4m0hA&s" alt="Ảnh 5">
+    </div>
+    <div class="image-box">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAH0LTAkitT9s-npAp4g2uwjEBugIcZXGpUw&s" alt="Ảnh 6">
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+    
+    <!-- Dishes Section -->
+  <section id="dishes" class="section dishes">
+    <div class="container">
+      <h2>Ẩm thực đặc trưng</h2>
+      <div class="dish-slider">
+        <div class="dish-track">
+          <div class="dish-card">
+            <img src="https://statics.vinpearl.com/cao-lau-hoi-an-01_1631078817.jpg" alt="Cao lầu Hội An">
+            <h3>Cao lầu</h3>
+            <p>Món mì đặc trưng với sợi mì dai, thịt heo, rau sống và nước dùng đậm đà.</p>
+          </div>
+          <div class="dish-card">
+            <img src="https://www.huongnghiepaau.com/wp-content/uploads/2017/08/mi-quang-tom-thit.jpg" alt="Mì Quảng">
+            <h3>Mì Quảng</h3>
+            <p>Sợi mì gạo mềm, ăn cùng tôm, gà, lạc rang và bánh tráng giòn.</p>
+          </div>
+          <div class="dish-card">
+            <img src="https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/5/13/733118/60067175_27480226685.jpg" alt="Bánh mì Phượng">
+            <h3>Bánh mì Phượng</h3>
+            <p>Bánh mì nổi tiếng thế giới với pate, thịt, rau và nước sốt đặc biệt.</p>
+          </div>
+          <div class="dish-card">
+            <img src="https://iguide.ai/cdn-cgi/image/width=3840,format=webp,quality=75/https%3A%2F%2Fimg.iguide.ai%2Fmedia%2Fbanh-ngo-delimanjoo-viettuantea_maxresdefault%20(4).webp" alt="Bánh bao - bánh vạc">
+            <h3>Bánh bao - bánh vạc</h3>
+            <p>Bánh nhân tôm thịt, hấp trong lớp vỏ mỏng, ăn với nước chấm chua ngọt.</p>
+          </div>
+          <div class="dish-card">
+            <img src="https://static.vinwonders.com/2022/10/com-ga-hoi-an-1-1.jpg" alt="Cơm gà Hội An">
+            <h3>Cơm gà</h3>
+            <p>Cơm nấu với nước luộc gà, ăn cùng gà xé, rau thơm và nước chấm cay.</p>
+          </div>
+          <div class="dish-card">
+            <img src="https://hoiana.com/wp-content/uploads/2025/01/banh-xeo-hoi-an-26.webp" alt="Bánh xèo">
+            <h3>Bánh xèo</h3>
+            <p>Bánh xèo nhỏ, giòn, nhân tôm, giá đỗ, ăn với nước chấm đậu phộng.</p>
+          </div>
+          <div class="dish-card">
+            <img src="https://ik.imagekit.io/tvlk/blog/2023/08/nuoc-mot-hoi-an-5.jpg?tr=q-70,c-at_max,w-500,h-300,dpr-2" alt="Nước mót">
+            <h3>Nước mót</h3>
+            <p>Thức uống thảo mộc từ sả, gừng, chanh, và các loại lá, vừa thơm vừa mát.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiences Section -->
+  <section id="experiences" class="section experiences">
+    <div class="container">
+      <h2>Trải nghiệm văn hóa & ẩm thực</h2>
+      <div class="experience-grid">
+        <div class="experience-item">
+          <h3>Tour ẩm thực phố cổ</h3>
+          <p>Thưởng thức món ngon tại các quán ăn địa phương và nghe câu chuyện ẩm thực.</p>
+        </div>
+        <div class="experience-item">
+          <h3>Lớp học nấu ăn</h3>
+          <p>Học cách chế biến cao lầu, mì Quảng với đầu bếp chuyên nghiệp.</p>
+        </div>
+        <div class="experience-item">
+          <h3>Tham quan chợ Hội An</h3>
+          <p>Khám phá chợ địa phương, chọn nguyên liệu tươi và trải nghiệm văn hóa chợ.</p>
+        </div>
+        <div class="experience-item">
+          <h3>Lễ hội đèn lồng</h3>
+          <p>Tham gia thả đèn hoa đăng trên sông Hoài, ngắm phố cổ lung linh.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Dịch vụ / Night Market Layout -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Dịch vụ của chúng tôi</h2>
+        <div class="market-stalls">
+          <div class="market-stall">
+            <h3>Gợi ý hành trình</h3>
+            <p>Lên kế hoạch cho chuyến đi của bạn với các hành trình được thiết kế riêng, khám phá những điểm đến đẹp nhất tại Hội An.</p>
+          </div>
+          <div class="market-stall">
+            <h3>Thông tin du lịch</h3>
+            <p>Thông tin chi tiết về các điểm tham quan, văn hóa, và ẩm thực tại Hội An để bạn có trải nghiệm trọn vẹn.</p>
+          </div>
+          <div class="market-stall">
+            <h3>Review khách hàng</h3>
+            <p>Đánh giá chân thực từ du khách giúp bạn lựa chọn dịch vụ và điểm đến phù hợp nhất.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="contact" id="contact">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2>Liên hệ với chúng tôi</h2>
+      <p><i class="fas fa-map-marker-alt"></i> 123 Nguyễn Văn Linh, Đà Nẵng</p>
+      <p><i class="fas fa-phone"></i> 2006 2025</p>
+      <p><i class="fas fa-envelope"></i> verditrip@tourvietnam.vn</p>
+      <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15914204.017941983!2d102.14440160000001!3d15.9030624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175292922cfa58d%3A0x9b9a4e9642bc65a5!2zVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1715243000000!5m2!1svi!2s"
+    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe>
+    </div>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Họ và tên" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Nội dung liên hệ" rows="5" required></textarea>
+        <button type="submit">Gửi</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </div>
+  
+   <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-company">
+                    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+    </div>
+                    <p>Đơn vị quảng bá du lịch Việt Nam hàng đầu. Chúng tôi mang đến những thông tin hữu ích giúp bạn khám phá vẻ đẹp đất nước hình chữ S.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-tiktok'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Khám Phá</h4>
+                    <ul>
+                        <li><a href="#destinations">Miền Bắc</a></li>
+                        <li><a href="#destinations">Miền Trung</a></li>
+                        <li><a href="#destinations">Miền Nam</a></li>
+                        <li><a href="#destinations">Đảo & Biển</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Thông Tin</h4>
+                    <ul>
+                        <li><a href="#about-us">Về Chúng Tôi</a></li>
+                        <li><a href="#experience">Trải Nghiệm</a></li>
+                        <li><a href="#">Bài Viết</a></li>
+                        <li><a href="#contact">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Liên Hệ</h4>
+                    <p><i class='bx bx-map'></i> Hòa Châu, Hòa Vang, TP Đà Nẵng</p>
+                    <p><i class='bx bx-phone'></i> +84 775544920</p>
+                    <p><i class='bx bx-envelope'></i> verditrip@gmail.com</p>
+                    <p><i class='bx bx-time'></i> 8:00 - 17:00, Thứ 2 - Thứ 6</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 VerdiTrip. Bản quyền thuộc về VerdiTrip.</p>
+                <div class="footer-policy">
+                    <a href="#">Điều khoản sử dụng</a>
+                    <a href="#">Chính sách bảo mật</a>
+                </div>
+            </div>
+        </footer>
+  <script src="ha.js"></script>
+  
+</body>
+</html> 
