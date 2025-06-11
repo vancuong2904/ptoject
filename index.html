@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerdiTrip - Khám Phá Việt Nam</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"><!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Merriweather:wght@400;500;700&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="intro">
+  <video autoplay muted>
+    <source src="assets/Vàng Cam Xanh lá Ẩm thực Việt Nam Video Tiktok.mp4" type="video/mp4">
+    Trình duyệt của bạn không hỗ trợ video.
+  </video>
+</div>
+
+            <dis class="hello"></dis>
+
+    <div class="main-container">
+
+        <header>
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/VerdiTrip.png" alt="VerdiTrip Logo">
+                </a>
+            </div>
+            
+            <div class="hamburger-menu">
+                <i class='bx bx-menu'></i>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><i class='bx bx-info-circle'></i><a href="#about-us" class="active">Giới thiệu</a></li>
+                    <li><i class='bx bx-map'></i><a href="#destinations">Món ăn</a></li>
+                    <li><i class='bx bx-calendar'></i><a href="#experience">Blog
+                    <li><i class='bx bx-phone'></i><a href="#contact">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-controls">
+                <div class="search-container">
+                    <form class="search-form">
+                        <input type="text" placeholder="Tìm món ăn..." class="search-input">
+                        <button type="submit" class="search-btn">
+                            <i class='bx bx-search'></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="book-btn">
+                    <a href="#login" class="btn primary-btn">ĐĂNG NHẬP</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sidebar cho mobile -->
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+
+            <ul>
+                <li><i class='bx bx-info-circle'></i><a href="#about-us" class="active">Giới thiệu</a></li>
+                    <li><i class='bx bx-map'></i><a href="#destinations">Món ăn</a></li>
+                    <li><i class='bx bx-calendar'></i><a href="#experience">Blog
+                    <li><i class='bx bx-phone'></i><a href="#contact">Liên hệ</a></li>
+
+            <div class="book-btn">
+                <a href="#login" class="btn primary-btn">ĐĂNG NHẬP</a>
+            </div>
+        </div>
+        <section class="hero-section">
+            <div class="hero-image">
+                <img src="banhmi.jpg" alt="Món ngon mỗi ngày">
+                
+                <div class="slide-controls">
+                    <div class="slide-dot active"></div>
+                    <div class="slide-dot"></div>
+                    <div class="slide-dot"></div>
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <h6>KHÁM PHÁ ẨM THỰC VIỆT NAM</h6>
+                <h1>Hành trình<br>hương vị<br>từ Bắc tới Nam</h1>
+                <div class="hero-buttons">
+                    <a href="#destinations" class="btn book-trip-btn">KHÁM PHÁ NGAY</a>
+                    <a href="#location" class="btn location-btn"><i class='bx bx-map'></i></a>
+                </div>
+            </div>
+
+            <!-- <div class="about-card">
+                <div class="about-header">GIỚI THIỆU</div>
+                <div class="about-content">
+                    <img src="assets/VerdiTrip.png" alt="Đội ngũ VerdiTrip" class="team-photo">
+                    <div class="about-text">
+                        <h4>Đội Ngũ Chúng Tôi</h4>
+                        <p>Chuyên gia du lịch với kinh nghiệm tạo nên những hành trình khó quên tại Việt Nam.</p>
+                        <a href="#about" class="learn-more-link"><i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        
+        <div class="social-links">
+            <p>Theo Dõi</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+                <a href="#"><i class='bx bxl-pinterest'></i></a>
+            </div>
+        </div>
+        
+
+        <div class="travel-partners">
+            <div class="partner"><img src="assets/VerdiTrip.png" alt="Tripadvisor"></div>
+            <div class="partner"><img src="assets/VerdiTrip.png" alt="Saigontourist"></div>
+            <div class="partner"><img src="assets/VerdiTrip.png" alt="Vietravel"></div>
+            <div class="partner"><img src="assets/VerdiTrip.png" alt="Vietnam Airlines"></div>
+        </div>
+
+        
+
+        <section id="destinations" class="destinations-section">
+            <div class="section-header">
+                <h2>Các món ăn nổi bật</h2>
+                <p>Những món ăn không thể bỏ lỡ tại Việt Nam</p>
+                <div class="navigation-arrows">
+                    <button class="nav-arrow prev"><i class='bx bx-chevron-left'></i></button>
+                    <button class="nav-arrow next"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+
+            <div class="destinations-slider">
+                <div class="destination-card">
+                    <img src="banhmi.jpg" alt="bánh mì">
+                    <h3>Bánh mì</h3>
+                    <p>Bánh mì là một loại baguette của Việt Nam với lớp vỏ ngoài giòn tan, ruột mềm, còn bên trong là phần nhân.Tùy vùng miền sẽ có phần nhân khác nhau.</p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="banhxeo.jpg" alt="Bánh Xèo">
+                    <h3>Bánh xèo</h3>
+                    <p>Bánh xèo là một loại bánh Việt Nam, có bột bên ngoài, bên trong có nhân là tôm, thịt, giá đỗ, được rán màu vàng, đúc thành hình tròn.</p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="bunbo1.jpg" alt="Bún bò ">
+                    <h3>Bún bò Huế</h3>
+                    <p>Bún bò Huế là một trong những đặc sản của thành phố Huế, mặc dù món bún này phổ biến trên cả ba miền ở Việt Nam và cả người Việt tại hải ngoại. </p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="buncha.jpg" alt="Buns chả">
+                    <h3>Bún chả</h3>
+                    <p>Bún chả là một món ăn của Việt Nam, bao gồm bún, chả thịt lợn nướng trên than hoa và bát nước mắm chua cay mặn ngọt. Tạo nên một hương vị ngon khó tả. </p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+
+                <div class="destination-card">
+                    <img src="xôi.jpg" alt="Xôi">
+                    <h3>Xôi</h3>
+                    <p>Xôi là một món ăn thông dụng được làm từ nguyên liệu chính là gạo nếp, hấp chín bằng hơi nước, thịnh hành trong ẩm thực của nhiều nước châu Á.</p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+
+                <div class="destination-card">
+                    <img src="mì quảng.jpg" alt="mì quảng">
+                    <h3>Mì quảng</h3>
+                    <p>Mì Quảng là một loại sợi mì, thường được làm từ bột gạo xay mịn với nước từ hạt dành dành và trứng cho có màu vàng và tráng xong cắt thành sợi 5-10mm</p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+
+                <div class="destination-card">
+                    <img src="Bánh_bèo.jpg" alt="Bánh bèo">
+                    <h3>Bánh bèo</h3>
+                    <p>Bánh bèo là một món bánh xuất thân từ Cố Đô Huế rất thịnh hành ở miền Trung, ngoài ra cũng phổ biến ở miền Nam Việt Nam.[1] Bánh bèo đã trở thành một nét đẹp trong văn hóa ẩm thực của người dân Việt Nam từ bao đời nay.</p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+
+                <div class="destination-card">
+                    <img src="buncha.jpg" alt="Bun chả">
+                    <h3>Bún chả</h3>
+                    <p>Bún chả là một món ăn của Việt Nam, bao gồm bún, chả thịt lợn nướng trên than hoa và bát nước mắm chua cay mặn ngọt. </p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+
+                <div class="destination-card">
+                    <img src="buncha.jpg" alt="Bun chả">
+                    <h3>Bún chả</h3>
+                    <p>Bún chả là một món ăn của Việt Nam, bao gồm bún, chả thịt lợn nướng trên than hoa và bát nước mắm chua cay mặn ngọt. </p>
+                    <a href="#" class="btn outline-btn">KHÁM PHÁ</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="booking-process">
+            <div class="section-header">
+                <h2></h2>
+                <p></p>
+            </div>
+            <img src="Thiết kế chưa có tên.png" alt="">
+
+
+            <!-- <div class="process-steps">
+                <div class="process-step left-step">
+                    <div class="step-icon">
+                        <i class='bx bx-landscape'></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Thiên Nhiên<br>Tuyệt Đẹp</h3>
+                        <p>Từ những vịnh biển hoang sơ đến những dãy núi hùng vĩ, Việt Nam sở hữu cảnh quan thiên nhiên đa dạng đang chờ bạn khám phá.</p>
+                    </div>
+                </div>
+
+                <div class="process-step center-step">
+                    <div class="step-icon">
+                        <i class='bx bx-restaurant'></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Ẩm Thực<br>Đặc Sắc</h3>
+                        <p>Bạn có thể thưởng thức hàng trăm món ăn ngon và đặc sản địa phương trên khắp các vùng miền, khám phá nền ẩm thực đã được thế giới công nhận.</p>
+                        <a href="#" class="btn outline-btn">TÌM HIỂU THÊM</a>
+                    </div>
+                </div>
+
+                <div class="process-step right-step">
+                    <div class="step-icon">
+                        <i class='bx bx-buildings'></i>
+                    </div>
+                    <div class="step-content">
+                        <h3>Di Sản<br>Văn Hóa</h3>
+                        <p>Việt Nam tự hào với 8 di sản được UNESCO công nhận cùng với nền văn hóa lâu đời đậm đà bản sắc dân tộc.</p>
+                    </div>
+                </div> -->
+            <!-- </div> -->
+             
+        </section>
+
+        <section id="about-us" class="about-us-section">
+            <div class="about-image">
+                <img src="assets/vietnam.jpg" alt="Văn hóa Việt Nam">
+            </div>
+
+            <div class="about-text-container">
+                <h2>Về Chúng Tôi</h2>
+                <p>VerdiTrip là đơn vị tiên phong trong lĩnh vực quảng bá du lịch tại Việt Nam. Chúng tôi tự hào giới thiệu đến du khách trong và ngoài nước vẻ đẹp thiên nhiên hùng vĩ, nền văn hóa phong phú và ẩm thực đặc sắc của đất nước hình chữ S. Với đội ngũ chuyên nghiệp và giàu kinh nghiệm, chúng tôi cung cấp thông tin chính xác, hữu ích và hấp dẫn về các điểm đến du lịch, giúp du khách lên kế hoạch cho chuyến đi hoàn hảo.</p>
+
+                <div class="team-info">
+                    <img src="assets/VerdiTrip.png" alt="Đội ngũ VerdiTrip" class="team-photo-small">
+                    <div class="team-text">
+                        <h4>Đội Ngũ Chúng Tôi</h4>
+                        <p>Chuyên gia du lịch với kinh nghiệm tạo nên những nội dung hấp dẫn về du lịch Việt Nam.</p>
+                        <a href="#about" class="learn-more-link"><i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                    <a href="#" class="btn primary-btn read-more-btn">XEM THÊM</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="achievements-section">
+            <div class="achievement-header">
+                <span>ĐƠN VỊ QUẢNG BÁ DU LỊCH UY TÍN</span>
+                <h2>Thành Tựu Của Chúng Tôi</h2>
+                <p>VerdiTrip tự hào đã giới thiệu vẻ đẹp Việt Nam đến hàng triệu du khách trong và ngoài nước. Từ những bãi biển hoang sơ đến những di sản văn hóa đặc sắc, chúng tôi luôn nỗ lực mang đến những thông tin chính xác, hữu ích và hấp dẫn nhất về du lịch Việt Nam.</p>
+            </div>
+
+            <div class="achievement-stats">
+                <div class="stat-item primary">
+                    <h3>5M+</h3>
+                    <p>Lượt Truy Cập</p>
+                </div>
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Bài Viết</p>
+                </div>
+                <div class="stat-item">
+                    <h3>63</h3>
+                    <p>Tỉnh Thành</p>
+                </div>
+                <div class="stat-item primary">
+                    <h3>120+</h3>
+                    <p>Điểm Đến</p>
+                </div>
+                <div class="stat-item primary">
+                    <h3>8+</h3>
+                    <p>Năm Kinh Nghiệm</p>
+                </div>
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>Giải Thưởng</p>
+                </div>
+            </div>
+
+            <div class="achievement-image">
+                <img src="assets/vietnam.jpg" alt="Giải thưởng Du lịch Việt Nam">
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-company">
+                    <h3 class="footer-logo">VerdiTrip</h3>
+                    <p>Đơn vị quảng bá du lịch Việt Nam hàng đầu. Chúng tôi mang đến những thông tin hữu ích giúp bạn khám phá vẻ đẹp đất nước hình chữ S.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-tiktok'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Khám Phá</h4>
+                    <ul>
+                        <li><a href="#destinations">Miền Bắc</a></li>
+                        <li><a href="#destinations">Miền Trung</a></li>
+                        <li><a href="#destinations">Miền Nam</a></li>
+                        <li><a href="#destinations">Đảo & Biển</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Thông Tin</h4>
+                    <ul>
+                        <li><a href="#about-us">Về Chúng Tôi</a></li>
+                        <li><a href="#experience">Trải Nghiệm</a></li>
+                        <li><a href="#">Bài Viết</a></li>
+                        <li><a href="#contact">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Liên Hệ</h4>
+                    <p><i class='bx bx-map'></i> Hòa Châu, Hòa Vang, TP Đà Nẵng</p>
+                    <p><i class='bx bx-phone'></i> +84 775544920</p>
+                    <p><i class='bx bx-envelope'></i> verditrip@gmail.com</p>
+                    <p><i class='bx bx-time'></i> 8:00 - 17:00, Thứ 2 - Thứ 6</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 VerdiTrip. Bản quyền thuộc về VerdiTrip.</p>
+                <div class="footer-policy">
+                    <a href="#">Điều khoản sử dụng</a>
+                    <a href="#">Chính sách bảo mật</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
